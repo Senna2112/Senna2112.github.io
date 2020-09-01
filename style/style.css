@@ -28,8 +28,13 @@ li a {
     border-bottom: 1px solid #555;
 }
 
-li a:hover {
+li a:hover:not(.active) {
   background-color: #555;
+  color: white;
+}
+
+li a.active {
+  background-color: #4CAF50;
   color: white;
 }
 
@@ -45,4 +50,8 @@ li a:hover {
   width: 50%;
   background-color: #325ae6;
   border: 1px solid black;
+}
+
+#links {
+  list-style-type: none;
 }
