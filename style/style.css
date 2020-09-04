@@ -29,12 +29,12 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #555;
+  background-color: #4d7cff;
   color: white;
 }
 
 li a.active {
-  background-color: #4CAF50;
+  background-color: #4d7cff;
   color: white;
 }
 
@@ -49,19 +49,36 @@ li a.active {
 .column.middle {
   width: 50%;
   background-color: #79b6d9;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
-#links {
-  list-style-type: none;
-}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   margin: auto;
 }
+#table-top {
+  background-color: #4d7cff; 
+}
+
+#blok1 {
+  background-color: orange;
+}
 
 h1 {
   font-weight: bold;
   font-size: 17px;
+}
+
+.guide a, li {
+  text-align: left;
+  text-decoration: none;
+  border-bottom: 0px;
+  list-style-type: square;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
 }
