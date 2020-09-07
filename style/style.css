@@ -57,7 +57,7 @@ table, th, td {
   border-collapse: collapse;
   margin: auto;
 }
-#table-top {
+th {
   background-color: #4d7cff; 
 }
 
@@ -80,5 +80,5 @@ h1 {
 img {
   max-width: 100%;
   height: auto;
-  width: auto\9; /* ie8 */
+  width: auto\9;
 }
