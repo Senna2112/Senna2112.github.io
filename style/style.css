@@ -1,5 +1,6 @@
 body {
   background-image: url(images/background.png);
+  font-family: "calibri";
 }
 
 h2 {
@@ -15,7 +16,8 @@ h2 {
   height: 100%;
   position: fixed;
   overflow: auto;
-  background-color: #79b6d9;
+  background-color: #2bb1ff;
+  border-radius: 5px;
     
 }
 
@@ -48,21 +50,19 @@ li a.active {
 
 .column.middle {
   width: 50%;
-  background-color: #79b6d9;
+  background-color: #2bb1ff;
   border: 2px solid black;
+  border-radius: 5px;
 }
 
-table, th, td {
+table, td {
   border: 1px solid black;
   border-collapse: collapse;
   margin: auto;
+  background-color: #4f93ff;
 }
 th {
   background-color: #4d7cff; 
-}
-
-#blok1 {
-  background-color: orange;
 }
 
 h1 {
@@ -80,5 +80,13 @@ h1 {
 img {
   max-width: 100%;
   height: auto;
-  width: auto\9;
+  width: auto/7;
+}
+
+#progress {
+  background-color: rgba(255,0,0,0.7);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  border-radius: 20px;
 }
