@@ -1,5 +1,5 @@
 body {
-  background-image: url(images/background.png);
+  background-image: url(img/background.png);
   font-family: "calibri";
 }
 
@@ -13,10 +13,10 @@ h2 {
   margin: 0;
   width: 100px;
   border: 2px solid black;
-  height: 275px;
+  height: auto;
   position: fixed;
   overflow: auto;
-  background-color: #2bb1ff;
+  background-color: gray;
   border-radius: 5px;
     
 }
@@ -31,12 +31,12 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #4d7cff;
+  background-color: lightgray;
   color: white;
 }
 
 li a.active {
-  background-color: #4d7cff;
+  background-color: lightgray;
   color: white;
 }
 
@@ -50,7 +50,7 @@ li a.active {
 
 .column.middle {
   width: 50%;
-  background-color: #2bb1ff;
+  background-color: gray;
   border: 2px solid black;
   border-radius: 5px;
 }
@@ -59,15 +59,15 @@ table, td {
   border: 1px solid black;
   border-collapse: collapse;
   margin: auto;
-  background-color: #4f93ff;
+  background-color: lightgray;
 }
 th {
-  background-color: #4d7cff; 
+  background-color: lightgray; 
 }
 
 h1 {
   font-weight: bold;
-  font-size: 17px;
+  font-size: 25px;
 }
 
 .guide a, li {
@@ -96,4 +96,19 @@ img {
   height: 15px;
   border-radius: 10px;
   font-size: 14px;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+.role {
+  display: inline-block;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 2px;
+  width: auto;
+  margin: 3px;
 }
